@@ -2,8 +2,10 @@ const express = require("express");
 const cors = require("cors");
 const app = express();
 const logger = require("morgan");
+const voiceRoute = require("./routes/voice");
 
 require("dotenv").config();
+require("./models");
 
 // Middleware
 app.use(logger("dev"));
@@ -13,6 +15,8 @@ app.use(cors());
 app.get("/api", (req, res, next) => {
     return res.send({ status: 1, message: "Server is OK!" });
 });
+
+app.use("/api", voiceRoute);
 
 // 404
 app.use((req, res, next) => {
