@@ -1,6 +1,6 @@
 const Voice = require("../models/Voice");
 
-const index = async (req, res) => {
+const getVoices = async (req, res) => {
     const voices = await Voice.find();
     return res.send({ status: 1, result: voices });
 };
@@ -10,7 +10,7 @@ const getSynthesisTech = async (req, res) => {
     return res.send({ status: 1, result: synthesisTeches });
 };
 
-const convertTTS = async (req, res) => {
+const synthesize = async (req, res) => {
     return res.send({
         status: 1,
         result: "https://s3.amazonaws.com/freecodecamp/drums/Heater-1.mp3",
@@ -18,7 +18,7 @@ const convertTTS = async (req, res) => {
 };
 
 module.exports = {
-    index,
+    getVoices,
     getSynthesisTech,
-    convertTTS,
+    synthesize,
 };
