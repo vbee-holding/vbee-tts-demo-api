@@ -1,0 +1,92 @@
+[
+	{
+		"key": "end2end_option1",
+		"name": "End2End - Tùy chọn 1",
+		"domainTts": "http://localhost:4000",
+		"synthesisTech": "End2End"
+	},
+	{
+		"key": "end2end_option2",
+		"name": "End2End - Tùy chọn 2",
+		"domainTts": "http://localhost:4000",
+		"synthesisTech": "End2End"
+	},
+	{
+		"key": "end2end_option3",
+		"name": "End2End - Tùy chọn 3",
+		"domainTts": "http://localhost:4000",
+		"synthesisTech": "End2End"
+	},
+	{
+		"key": "end2end_option4",
+		"name": "End2End - Tùy chọn 4",
+		"domainTts": "http://localhost:4000",
+		"synthesisTech": "End2End"
+	},
+	{
+		"key": "end2end_option5",
+		"name": "End2End - Tùy chọn 5",
+		"domainTts": "http://localhost:4000",
+		"synthesisTech": "End2End"
+	},
+	{
+		"key": "dnn_option1",
+		"name": "DNN - Tùy chọn 1",
+		"domainTts": "http://localhost:4000",
+		"synthesisTech": "DNN"
+	},
+	{
+		"key": "dnn_option2",
+		"name": "DNN - Tùy chọn 2",
+		"domainTts": "http://localhost:4000",
+		"synthesisTech": "DNN"
+	},
+	{
+		"key": "dnn_option3",
+		"name": "DNN - Tùy chọn 3",
+		"domainTts": "http://localhost:4000",
+		"synthesisTech": "DNN"
+	},
+	{
+		"key": "dnn_option4",
+		"name": "DNN - Tùy chọn 4",
+		"domainTts": "http://localhost:4000",
+		"synthesisTech": "DNN"
+	},
+	{
+		"key": "dnn_option5",
+		"name": "DNN - Tùy chọn 5",
+		"domainTts": "http://localhost:4000",
+		"synthesisTech": "DNN"
+	},
+	{
+		"key": "hmm_option1",
+		"name": "HMM - Tùy chọn 1",
+		"domainTts": "http://localhost:4000",
+		"synthesisTech": "HMM"
+	},
+	{
+		"key": "hmm_option2",
+		"name": "HMM - Tùy chọn 2",
+		"domainTts": "http://localhost:4000",
+		"synthesisTech": "HMM"
+	},
+	{
+		"key": "hmm_option3",
+		"name": "HMM - Tùy chọn 3",
+		"domainTts": "http://localhost:4000",
+		"synthesisTech": "HMM"
+	},
+	{
+		"key": "hmm_option4",
+		"name": "HMM - Tùy chọn 4",
+		"domainTts": "http://localhost:4000",
+		"synthesisTech": "HMM"
+	},
+	{
+		"key": "hmm_option5",
+		"name": "HMM - Tùy chọn 5",
+		"domainTts": "http://localhost:4000",
+		"synthesisTech": "HMM"
+	}
+]
